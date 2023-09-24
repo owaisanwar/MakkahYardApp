@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RunnerTests.m */; };
+		00E356F31AD99517003FC87E /* MakkahYardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MakkahYardTests.m */; };
 		05820AB7E274429E9BD65912 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D85F202A0864C47A306BFE3 /* Raleway-Regular.ttf */; };
 		099E742E58354D7BBDE92818 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB025C65EDBE4C22A55CC300 /* Raleway-ExtraLight.ttf */; };
 		0ADA46260FD04AE8B2BF8D98 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE204323A90146FCBA5D5FFD /* Raleway-BoldItalic.ttf */; };
@@ -21,7 +21,7 @@
 		397CBEA64F43413C805ACAC7 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56471ED7F1C6464AB966CE91 /* Raleway-SemiBold.ttf */; };
 		3E746F94DCDB49F8BF50B8E3 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26BA72BDA2644EC68B5E98BB /* Merriweather-Light.ttf */; };
 		42F719170C1745378A3707A6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D0570C8E234164ABE49247 /* Roboto-Bold.ttf */; };
-		4E6EC00D99207DBE6AC6C675 /* libPods-Runner-RunnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1F1285CE429DDAD43915F /* libPods-Runner-RunnerTests.a */; };
+		4E6EC00D99207DBE6AC6C675 /* libPods-MakkahYard-MakkahYardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1F1285CE429DDAD43915F /* libPods-MakkahYard-MakkahYardTests.a */; };
 		512735BECF304C4DBEDC9231 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7C7949B12344C28DC07953 /* Raleway-ExtraBoldItalic.ttf */; };
 		5215FFD9AC5548159170BAD6 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F49A61F87CE44AAB5752805 /* Raleway-Bold.ttf */; };
 		59F9D85102394FEFB5BB9B1D /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63C1C604F08D41B0B0C389FB /* Roboto-LightItalic.ttf */; };
@@ -50,7 +50,7 @@
 		E580240FE94B4648BACFA0CD /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA758B246FC04237AF148425 /* Merriweather-Regular.ttf */; };
 		E9C9BDC1E97A4EB598365CF5 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9A3F72F8C824C28A87B8702 /* Raleway-Thin.ttf */; };
 		F082A1857DEB49EDB7F0EC2C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C358A3A8533743B191AAD887 /* Roboto-MediumItalic.ttf */; };
-		F1DBFFD29C6B774D444620D0 /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09255B3A2C3430F6D5489BC6 /* libPods-Runner.a */; };
+		F1DBFFD29C6B774D444620D0 /* libPods-MakkahYard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09255B3A2C3430F6D5489BC6 /* libPods-MakkahYard.a */; };
 		FCA82F345E034DB5BE8797F7 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0089AD466793401C80939E61 /* Raleway-Light.ttf */; };
 /* End PBXBuildFile section */
 
@@ -60,39 +60,39 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Runner;
+			remoteInfo = MakkahYard;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0089AD466793401C80939E61 /* Raleway-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Light.ttf"; path = "../app/assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MakkahYardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakkahYardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunnerTests.m; sourceTree = "<group>"; };
-		09255B3A2C3430F6D5489BC6 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* MakkahYardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakkahYardTests.m; sourceTree = "<group>"; };
+		09255B3A2C3430F6D5489BC6 /* libPods-MakkahYard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MakkahYard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7C7949B12344C28DC07953 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Runner/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Runner/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Runner/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Runner/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Runner/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MakkahYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakkahYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MakkahYard/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MakkahYard/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MakkahYard/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MakkahYard/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MakkahYard/main.m; sourceTree = "<group>"; };
 		1580F8A1F7FB41BAB9AD4C7A /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-LightItalic.ttf"; path = "../app/assets/fonts/Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
 		191A3EE5257140A88A37FDCC /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		1D793E4CC5004E86B95E2320 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Italic.ttf"; path = "../app/assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; };
 		1EF7A0852F8C4635A83ECEAC /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Italic.ttf"; path = "../app/assets/fonts/Merriweather-Italic.ttf"; sourceTree = "<group>"; };
 		2471C161369145798174BD4A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		26BA72BDA2644EC68B5E98BB /* Merriweather-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Light.ttf"; path = "../app/assets/fonts/Merriweather-Light.ttf"; sourceTree = "<group>"; };
-		2C6A0D4B8C1503E08B66D47C /* Pods-Runner-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6A0D4B8C1503E08B66D47C /* Pods-MakkahYard-MakkahYardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakkahYard-MakkahYardTests.debug.xcconfig"; path = "Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33A71DB7426A4E76B3128387 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Black.ttf"; path = "../app/assets/fonts/Merriweather-Black.ttf"; sourceTree = "<group>"; };
 		3454AEE42AB345AABAE9D995 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		35725F2043C1474F92AC657D /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-LightItalic.ttf"; path = "../app/assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
 		386D2B5361A748518FAA131B /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-MediumItalic.ttf"; path = "../app/assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
-		3BA1F1285CE429DDAD43915F /* libPods-Runner-RunnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner-RunnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA1F1285CE429DDAD43915F /* libPods-MakkahYard-MakkahYardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MakkahYard-MakkahYardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F49A61F87CE44AAB5752805 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../app/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		47900295E6014D8ABFE23F1D /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BoldItalic.ttf"; path = "../app/assets/fonts/Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4AA8354F582B4226B60322A7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		550A55B08684BEC764B82E79 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		550A55B08684BEC764B82E79 /* Pods-MakkahYard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakkahYard.debug.xcconfig"; path = "Target Support Files/Pods-MakkahYard/Pods-MakkahYard.debug.xcconfig"; sourceTree = "<group>"; };
 		56471ED7F1C6464AB966CE91 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-SemiBold.ttf"; path = "../app/assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
 		5B245BEA6051495892CDCF0B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5D85F202A0864C47A306BFE3 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../app/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
@@ -114,16 +114,16 @@
 		632A41F32899FCD2002C2DBE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		632A41F42899FCD2002C2DBE /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		63C1C604F08D41B0B0C389FB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		6F523EBEF1DDF70D915458FC /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		6F523EBEF1DDF70D915458FC /* Pods-MakkahYard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakkahYard.release.xcconfig"; path = "Target Support Files/Pods-MakkahYard/Pods-MakkahYard.release.xcconfig"; sourceTree = "<group>"; };
 		815927E12C044561A1C3ABF2 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Runner/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MakkahYard/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823BB7BE0D63477D8AB92A39 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		87F0426AF1A1411DA6015AE7 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-Bold.ttf"; path = "../app/assets/fonts/Merriweather-Bold.ttf"; sourceTree = "<group>"; };
 		8A45A21E8708420F8BA46B3C /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../app/assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
 		90D0570C8E234164ABE49247 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		95A24214CD294D01A15ADDFD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		A424E412DD5941408C4B6D03 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-ExtraBold.ttf"; path = "../app/assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A5323F5576883AF7A93A5066 /* Pods-Runner-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5323F5576883AF7A93A5066 /* Pods-MakkahYard-MakkahYardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakkahYard-MakkahYardTests.release.xcconfig"; path = "Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9A3F72F8C824C28A87B8702 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Thin.ttf"; path = "../app/assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; };
 		AE204323A90146FCBA5D5FFD /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-BoldItalic.ttf"; path = "../app/assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C31F5757723A4839BFE8080B /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Merriweather-BlackItalic.ttf"; path = "../app/assets/fonts/Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6EC00D99207DBE6AC6C675 /* libPods-Runner-RunnerTests.a in Frameworks */,
+				4E6EC00D99207DBE6AC6C675 /* libPods-MakkahYard-MakkahYardTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,20 +151,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DBFFD29C6B774D444620D0 /* libPods-Runner.a in Frameworks */,
+				F1DBFFD29C6B774D444620D0 /* libPods-MakkahYard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RunnerTests */ = {
+		00E356EF1AD99517003FC87E /* MakkahYardTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RunnerTests.m */,
+				00E356F21AD99517003FC87E /* MakkahYardTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RunnerTests;
+			path = MakkahYardTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -175,7 +175,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Runner */ = {
+		13B07FAE1A68108700A75B9A /* MakkahYard */ = {
 			isa = PBXGroup;
 			children = (
 				632A41E42899FCD2002C2DBE /* Fonts */,
@@ -186,15 +186,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Runner;
+			name = MakkahYard;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				09255B3A2C3430F6D5489BC6 /* libPods-Runner.a */,
-				3BA1F1285CE429DDAD43915F /* libPods-Runner-RunnerTests.a */,
+				09255B3A2C3430F6D5489BC6 /* libPods-MakkahYard.a */,
+				3BA1F1285CE429DDAD43915F /* libPods-MakkahYard-MakkahYardTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,9 +278,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Runner */,
+				13B07FAE1A68108700A75B9A /* MakkahYard */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RunnerTests */,
+				00E356EF1AD99517003FC87E /* MakkahYardTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -294,8 +294,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Runner.app */,
-				00E356EE1AD99517003FC87E /* RunnerTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MakkahYard.app */,
+				00E356EE1AD99517003FC87E /* MakkahYardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,10 +303,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				550A55B08684BEC764B82E79 /* Pods-Runner.debug.xcconfig */,
-				6F523EBEF1DDF70D915458FC /* Pods-Runner.release.xcconfig */,
-				2C6A0D4B8C1503E08B66D47C /* Pods-Runner-RunnerTests.debug.xcconfig */,
-				A5323F5576883AF7A93A5066 /* Pods-Runner-RunnerTests.release.xcconfig */,
+				550A55B08684BEC764B82E79 /* Pods-MakkahYard.debug.xcconfig */,
+				6F523EBEF1DDF70D915458FC /* Pods-MakkahYard.release.xcconfig */,
+				2C6A0D4B8C1503E08B66D47C /* Pods-MakkahYard-MakkahYardTests.debug.xcconfig */,
+				A5323F5576883AF7A93A5066 /* Pods-MakkahYard-MakkahYardTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -314,9 +314,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RunnerTests */ = {
+		00E356ED1AD99517003FC87E /* MakkahYardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RunnerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MakkahYardTests" */;
 			buildPhases = (
 				97FEA75821179579B55EE8F7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -330,14 +330,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RunnerTests;
-			productName = RunnerTests;
-			productReference = 00E356EE1AD99517003FC87E /* RunnerTests.xctest */;
+			name = MakkahYardTests;
+			productName = MakkahYardTests;
+			productReference = 00E356EE1AD99517003FC87E /* MakkahYardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Runner */ = {
+		13B07F861A680F5B00A75B9A /* MakkahYard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MakkahYard" */;
 			buildPhases = (
 				0EBECA4EA9726B4A57EF4D09 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -352,9 +352,9 @@
 			);
 			dependencies = (
 			);
-			name = Runner;
-			productName = Runner;
-			productReference = 13B07F961A680F5B00A75B9A /* Runner.app */;
+			name = MakkahYard;
+			productName = MakkahYard;
+			productReference = 13B07F961A680F5B00A75B9A /* MakkahYard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runner" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MakkahYard" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -387,8 +387,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Runner */,
-				00E356ED1AD99517003FC87E /* RunnerTests */,
+				13B07F861A680F5B00A75B9A /* MakkahYard */,
+				00E356ED1AD99517003FC87E /* MakkahYardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -482,7 +482,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MakkahYard-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,15 +495,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5435BDFE2DF4FC991E870515 /* [CP] Copy Pods Resources */ = {
@@ -512,15 +512,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F7FE8A1D034C67660A6A968 /* [CP] Embed Pods Frameworks */ = {
@@ -529,15 +529,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakkahYard/Pods-MakkahYard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8649EB2A5083606E71F1DD56 /* [CP] Embed Pods Frameworks */ = {
@@ -546,15 +546,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner-RunnerTests/Pods-Runner-RunnerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakkahYard-MakkahYardTests/Pods-MakkahYard-MakkahYardTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		97FEA75821179579B55EE8F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -572,7 +572,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-RunnerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MakkahYard-MakkahYardTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -605,7 +605,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RunnerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MakkahYardTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,7 +623,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Runner */;
+			target = 13B07F861A680F5B00A75B9A /* MakkahYard */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -631,14 +631,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C6A0D4B8C1503E08B66D47C /* Pods-Runner-RunnerTests.debug.xcconfig */;
+			baseConfigurationReference = 2C6A0D4B8C1503E08B66D47C /* Pods-MakkahYard-MakkahYardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RunnerTests/Info.plist;
+				INFOPLIST_FILE = MakkahYardTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -650,19 +650,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.di.makkahyard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakkahYard.app/MakkahYard";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5323F5576883AF7A93A5066 /* Pods-Runner-RunnerTests.release.xcconfig */;
+			baseConfigurationReference = A5323F5576883AF7A93A5066 /* Pods-MakkahYard-MakkahYardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RunnerTests/Info.plist;
+				INFOPLIST_FILE = MakkahYardTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -674,15 +674,15 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.di.makkahyard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/Runner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakkahYard.app/MakkahYard";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550A55B08684BEC764B82E79 /* Pods-Runner.debug.xcconfig */;
+			baseConfigurationReference = 550A55B08684BEC764B82E79 /* Pods-MakkahYard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -690,8 +690,9 @@
 				DEVELOPMENT_TEAM = 3C2ZJ87Z72;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
-				INFOPLIST_FILE = Runner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				INFOPLIST_FILE = MakkahYard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MakkahYard;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -702,8 +703,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huynh.maziReactNative;
-				PRODUCT_NAME = Runner;
+				PRODUCT_BUNDLE_IDENTIFIER = io.di.makkahyard;
+				PRODUCT_NAME = MakkahYard;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -712,14 +713,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F523EBEF1DDF70D915458FC /* Pods-Runner.release.xcconfig */;
+			baseConfigurationReference = 6F523EBEF1DDF70D915458FC /* Pods-MakkahYard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3C2ZJ87Z72;
-				INFOPLIST_FILE = Runner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				INFOPLIST_FILE = MakkahYard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MakkahYard;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -730,8 +732,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.huynh.maziReactNative;
-				PRODUCT_NAME = Runner;
+				PRODUCT_BUNDLE_IDENTIFIER = io.di.makkahyard;
+				PRODUCT_NAME = MakkahYard;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -879,7 +881,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RunnerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MakkahYardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -888,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Runner" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MakkahYard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -897,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runner" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MakkahYard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

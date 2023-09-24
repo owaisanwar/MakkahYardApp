@@ -1,5 +1,4 @@
-package com.runner;
-
+package io.di.makkahyard;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
@@ -21,7 +20,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Runner";
+    return "MakkahYard";
   }
 
   /**
